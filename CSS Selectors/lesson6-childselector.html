@@ -1,0 +1,33 @@
+<!-- declares the document as HTML5 -->
+<!DOCTYPE html>
+<!-- this is the root element -->
+<html lang="en">
+  <!--This exercise is going over Combinators-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device width, initial-scale=1.0" />
+    <title>Child Selector</title>
+    <style>
+      /* div p {
+        color: red;
+      } */
+      div > p {
+        color: blueviolet;
+        font-style: oblique;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div>
+      <p>This is inside of the div</p>
+      <p>This is another p tag inside of the div</p>
+    </div> -->
+
+    <div>
+      <p>Direct Child</p>
+      <section>
+        <p>Not a direct Child</p>
+      </section>
+    </div>
+  </body>
+</html>
