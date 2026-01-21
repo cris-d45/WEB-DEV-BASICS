@@ -6,7 +6,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device width, initial-scale=1.0" />
-    <title>Adjacent Sibling Selector</title>
+    <title>General Sibling Selector</title>
     <style>
       /* div p {
         color: red;
@@ -16,8 +16,12 @@
         font-style: oblique;
       } */
 
-      h2 + p {
+      /* h2 + p {
         color: blue;
+      } */
+
+      h2 ~ p {
+        color: brown;
       }
     </style>
   </head>
@@ -34,9 +38,13 @@
       </section>
     </div> -->
 
-    <h2>Heading</h2>
+    <!-- <h2>Heading</h2>
     <p>This is adjacent to the h2 tag</p>
     <p>This is selected</p>
-    <p>This is not</p>
+    <p>This is not</p> -->
+
+    <h2>Heading</h2>
+    <p>First paragraph</p>
+    <p>Second paragraph</p>
   </body>
 </html>

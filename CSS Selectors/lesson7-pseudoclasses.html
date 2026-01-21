@@ -1,0 +1,32 @@
+<!-- declares the document as HTML5 -->
+<!DOCTYPE html>
+<!-- this is the root element -->
+<html lang="en">
+  <!--head tag includes meta data such as the title -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device width, initial-scale=1.0" />
+    <title>Pseudo Classes</title>
+    <style>
+      button:hover {
+        background-color: lightcoral;
+      }
+      input:focus {
+        border: 3px solid red;
+      }
+
+      li:nth-child(2) {
+        background-color: blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <button>hover me</button>
+    <input type="text" placeholder="Click Me Here" />
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+  </body>
+</html>
