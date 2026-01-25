@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device width, initial-scale=1.0" />
+    <title>Handling Overflow</title>
+    <style>
+      .overflow1 {
+        width: 150px;
+        height: 50px;
+        overflow: visible;
+        border: 1px solid black;
+      }
+
+      .overflow2 {
+        width: 150px;
+        height: 50px;
+        overflow: hidden;
+        border: 1px solid black;
+      }
+
+      .overflow3 {
+        width: 150px;
+        height: 50px;
+        overflow: scroll;
+        border: 1px solid black;
+      }
+
+      .overflow4 {
+        width: 150px;
+        height: 50px;
+        overflow: auto;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="overflow1">
+      testingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtesting
+    </div>
+    <div class="overflow2">
+      testingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtesting
+    </div>
+    <div class="overflow3">
+      testingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtesting
+    </div>
+    <div class="overflow4">
+      testingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtesting
+    </div>
+  </body>
+</html>
