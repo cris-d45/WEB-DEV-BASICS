@@ -1,0 +1,19 @@
+# Bringing Everything Together - Beautiful and Responsive Blog
+
+### Typography and Colors
+
+### Hover Effects and Animations
+
+### Flexbox and Grid
+
+### Media Queries
+
+## Project Structure
+
+
+...
+/complete
+/index.html
+/styles.css
+/images/image.jpg
+/audio-sample.mp3/

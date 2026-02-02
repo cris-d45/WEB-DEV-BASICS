@@ -1,0 +1,109 @@
+<!-- this is the root element -->
+<!doctype html>
+<html lang="en">
+  <!--head tag includes meta data such as the title -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device width, initial-scale=1.0" />
+    <title>Complete</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- header section-->
+    <header>
+      <h1>My Personal Blog</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <!--main content-->
+      <main>
+        <section id="about">
+          <h2>About</h2>
+          <p>Welcome to my blog! I share my thoughts on web development</p>
+        </section>
+
+        <!--blog articles-->
+        <article>
+          <h2>Understanding Semantic HTML</h2>
+          <p>
+            Semantic HTML is a way to write HTML that describes the meaning of
+            the content...
+          </p>
+          <img src="Images/blogphoto.jpg" alt="blog-photo-1" width="500" />
+        </article>
+
+        <article>
+          <h2>How to add Media in HTML</h2>
+          <p>
+            Adding images, videos, and audio files in a webpage, enhances a
+            user's experience.
+          </p>
+          <audio controls>
+            <source src="audiosample.mp3" type="audio/mpeg" />
+          </audio>
+        </article>
+
+        <!--embedding youtube video-->
+        <section>
+          <h2>Watch my latest video</h2>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/pwuFTsvJL34?si=BHjhEfVbSh4O1yQA"
+            title="YouTube video player"
+            frameborder="0"
+            allow="
+              accelerometer;
+              autoplay;
+              clipboard-write;
+              encrypted-media;
+              gyroscope;
+              picture-in-picture;
+              web-share;
+            "
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </section>
+      </main>
+      <!-- sidebar -->
+      <aside>
+        <h3>More Links</h3>
+        <ul>
+          <li><a href="#">My Portfolio</a></li>
+          <li><a href="#">Follow me on other platforms</a></li>
+          <li><a href="#">Subscribe to youtube</a></li>
+        </ul>
+      </aside>
+    </div>
+
+    <!-- footer -->
+    <footer id="contact">
+      <p>
+        Contact me at:
+        <a href="mailto:test.contact@gmail.com">test.contact@gmail.com</a>
+      </p>
+      <p>
+        Call me at:
+        <a href="tel:2132589966">2132589966</a>
+      </p>
+      <p>&copy; 2025 cris's blog</p>
+    </footer>
+  </body>
+</html>
+
+<!--
+[x] a header with a navigation bar
+[x] a main content area with blog articles
+[x] a sidebar using <aside>
+[x] a footer with contact details
+[x] anchor links for navigation
+[x] images, audio and video
+[x] a youtube embed video
+-->
