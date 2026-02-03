@@ -14,3 +14,22 @@
 //     console.log("i =", i);
 //     console.log("colors[i] =", colors[i])
 // }
+
+//While loops
+
+// let count = 0;
+
+// while (count <= 5) {
+//   console.log("count =", count);
+//   count++;
+// }
+
+// User Input until correct answer
+
+let userInput;
+
+while (userInput !== "yes") {
+  userInput = prompt("Type 'yes' to continue.");
+}
+
+console.log("You entered 'yes'");
