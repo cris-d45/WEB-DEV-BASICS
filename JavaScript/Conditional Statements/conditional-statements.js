@@ -8,16 +8,33 @@
 
 //if...else if...else
 
-const marks = 100;
+// const marks = 100;
 
-if (marks >= 90) {
-  console.log("Grade: A");
-} else if (marks >= 80) {
-  console.log("Grade: 80");
-} else if (marks >= 70) {
-  console.log("Grade: C");
-} else if (marks >= 60) {
-  console.log("Grade: D");
+// if (marks >= 90) {
+//   console.log("Grade: A");
+// } else if (marks >= 80) {
+//   console.log("Grade: 80");
+// } else if (marks >= 70) {
+//   console.log("Grade: C");
+// } else if (marks >= 60) {
+//   console.log("Grade: D");
+// } else {
+//   console.log("Grade: F");
+// }
+
+// checking for multiple conditions with ( &&, || )
+
+const age = 18;
+const hasDrivingLicense = true;
+
+// if (age >= 18 && hasDrivingLicense) {
+//   console.log("You can drive");
+// } else {
+//   console.log("you can not drive");
+// }
+
+if (age >= 18 || hasDrivingLicense) {
+  console.log("You can drive");
 } else {
-  console.log("Grade: F");
+  console.log("you can not drive");
 }
