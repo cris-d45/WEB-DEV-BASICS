@@ -16,20 +16,39 @@
 // }
 
 //While loops
-
+//
+//
 // let count = 0;
-
+//
 // while (count <= 5) {
 //   console.log("count =", count);
 //   count++;
 // }
 
 // User Input until correct answer
+//
+// let userInput;
+//
+// while (userInput !== "yes") {
+//   userInput = prompt("Type 'yes' to continue.");
+// }
+//
+// console.log("You entered 'yes'");
 
-let userInput;
+// do...while ( Executes at least once )
+//
+// let number = 0;
+//
+// do {
+//   console.log("number =", number);
+//   number++;
+// } while (number <= 5);
 
-while (userInput !== "yes") {
-  userInput = prompt("Type 'yes' to continue.");
-}
+// do...while (Example 2)
+let num;
 
-console.log("You entered 'yes'");
+do {
+  num = prompt("Enter a number greater than 10");
+} while (num <= 10);
+
+console.log("Thank you.");
