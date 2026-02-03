@@ -1,4 +1,4 @@
-// for loop
+// for loop (Example)
 
 // for (let i = 0; i <= 5; i++) {
 //     console.log("Iteration:", i);
@@ -15,7 +15,7 @@
 //     console.log("colors[i] =", colors[i])
 // }
 
-//While loops
+//While loops (Example)
 //
 //
 // let count = 0;
@@ -25,7 +25,7 @@
 //   count++;
 // }
 
-// User Input until correct answer
+// User Input until correct answer (Example)
 //
 // let userInput;
 //
@@ -35,7 +35,7 @@
 //
 // console.log("You entered 'yes'");
 
-// do...while ( Executes at least once )
+// do...while ( Executes at least once ) (Example)
 //
 // let number = 0;
 //
@@ -45,10 +45,10 @@
 // } while (number <= 5);
 
 // do...while (Example 2)
-let num;
+// let num;
 
-do {
-  num = prompt("Enter a number greater than 10");
-} while (num <= 10);
+// do {
+//   num = prompt("Enter a number greater than 10");
+// } while (num <= 10);
 
-console.log("Thank you.");
+// console.log("Thank you.");
