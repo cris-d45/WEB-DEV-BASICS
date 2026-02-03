@@ -22,10 +22,10 @@
 //   console.log("Grade: F");
 // }
 
-// checking for multiple conditions with ( &&, || )
+// checking for multiple conditions with ( &&, || ) These are AND and OR operators
 
-const age = 18;
-const hasDrivingLicense = true;
+// const age = 18;
+// const hasDrivingLicense = true;
 
 // if (age >= 18 && hasDrivingLicense) {
 //   console.log("You can drive");
@@ -33,8 +33,16 @@ const hasDrivingLicense = true;
 //   console.log("you can not drive");
 // }
 
-if (age >= 18 || hasDrivingLicense) {
-  console.log("You can drive");
-} else {
-  console.log("you can not drive");
-}
+// if (age >= 18 || hasDrivingLicense) {
+//   console.log("You can drive");
+// } else {
+//   console.log("you can not drive");
+// }
+
+// Ternary Operator ( ? : )
+
+const isLoggedIn = true;
+
+const msg = isLoggedIn ? "Welcome back!" : "Please log in";
+
+console.log(msg);
