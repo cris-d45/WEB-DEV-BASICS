@@ -35,8 +35,34 @@
 // console.log(square(5)); // output: 25
 
 //Arrow Functions with multiple parameters: () => {}
-const multiply = (a, b) => {
-  return a * b;
+// const multiply = (a, b) => {
+//   return a * b;
+// };
+
+// console.log(multiply(3, 4)); // Output : 12
+
+//Function scope and Hoisting
+
+// let globalVar = "I am global";
+
+// function testScope() {
+//     let localVar = "I exist only in this function"
+//     console.log(globalVar); // works
+//     console.log(localVar); // works
+// }
+
+// testScope()
+// console.log(globalVar); // Works
+// console.log(localVar); // Error;
+
+// hello();
+
+// function hello() {
+//     console.log("Hello from a function declaration");
+// }
+
+const greet = function () {
+  console.log("HELLO FROM A FUNCTION EXPRESSION");
 };
 
-console.log(multiply(3, 4)); // Output : 12
+greet();
