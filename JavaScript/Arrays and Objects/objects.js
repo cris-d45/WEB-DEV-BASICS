@@ -1,5 +1,6 @@
-const person = {
   //These objects are also called dictionaries in Python
+
+const person = {
   name: "Alice",
   age: 25,
   city: "New York",
@@ -20,4 +21,9 @@ console.log(person);
 delete person.city; // this is selectively deleting the city property.
 console.log(person);
 
+//loop through an object
 
+for (const key in person) {
+  console.log("key =", key);
+  console.log("value =", person[key]);
+}
