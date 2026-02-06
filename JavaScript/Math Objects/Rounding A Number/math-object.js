@@ -39,3 +39,29 @@ console.log("Math.max(...nums)", Math.max(...nums));
 console.log("Math.abs() ------------");
 console.log("Math.abs(-10)", Math.abs(-10));
 console.log("Math.abs(10)", Math.abs(10));
+
+// Math.pow() Power of a number
+console.log("Math.pow() --------------");
+console.log("Math.pow(2, 3)", Math.pow(2, 3));
+console.log("Math.pow(5, 2)", Math.pow(5, 2));
+
+console.log("2 ** 3", 2 ** 3);
+console.log("5 ** 2", 5 ** 2);
+
+// Math.sqrt() --------------
+console.log("Math.sqrt()-------");
+console.log("Math.sqrt(25)", Math.sqrt(25));
+console.log("Math.sqrt(49)", Math.sqrt(25));
+
+// check if a number is a perfect square
+console.log("function to see if perfect square");
+
+function isPerfectSquare(num) {
+  if (Math.sqrt(num) % 1 === 0) return true;
+  return false;
+}
+
+console.log("isPerfectSquare(10)", isPerfectSquare(10));
+console.log("isPerfectSquare(10)", isPerfectSquare(16));
+console.log("isPerfectSquare(10)", isPerfectSquare(25));
+console.log("isPerfectSquare(10)", isPerfectSquare(27));
