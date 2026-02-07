@@ -7,14 +7,25 @@
   </head>
   <body>
     <script>
-      console.log("Start");
-      //   console.log("Processing...");
+      //   console.log("Start");
+      //   //   console.log("Processing...");
+      //   //   console.log("End");
+
+      //   setTimeout(() => {
+      //     console.log("Hello After 3 seconds!");
+      //   }, 3000);
       //   console.log("End");
 
-      setTimeout(() => {
-        console.log("Hello After 3 seconds!");
-      }, 3000);
-      console.log("End");
+      //prints counts every second until 5
+      let count = 0;
+      const interval = setInterval(() => {
+        ++count;
+        console.log(`Count: ${count}`);
+
+        if (count === 5) {
+          clearInterval(interval);
+        }
+      }, 1000);
     </script>
   </body>
 </html>
