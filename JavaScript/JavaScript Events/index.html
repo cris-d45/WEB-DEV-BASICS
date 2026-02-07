@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Handling buttons</title>
+  </head>
+  <body>
+    <!-- <button onclick="sayHello()">Click Me</button> -->
+    <button id="btn">Click Me</button>
+    <p id="hoverText">Hover over me</p>
+    <script>
+      function sayHello() {
+        alert("Hello, Javascript");
+      }
+
+      const button = document.getElementById("btn");
+      //   button.addEventListener("click", sayHello);
+
+      button.addEventListener("click", () => {
+        alert("HELLO FROM JAVASCRIPT");
+      });
+
+      const text = document.getElementById("hoverText");
+      text.addEventListener("mouseover", function () {
+        text.style.color = "red";
+      });
+
+      text.addEventListener("mouseout", function () {
+        text.style.color = "black";
+      });
+    </script>
+  </body>
+</html>
