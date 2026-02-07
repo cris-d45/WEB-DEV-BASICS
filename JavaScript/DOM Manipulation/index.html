@@ -24,8 +24,19 @@
       //   //   console.log("paragraphs =", paragraphs);
       //   console.log("paragraphs[0].textContent =", paragraphs[0].textContent);
 
-      const buttons = document.getElementsByTagName("button");
-      console.log("buttons =", buttons[0].textContent);
+      //   const buttons = document.getElementsByTagName("button");
+      //   console.log("buttons =", buttons[0].textContent);
+
+      // MODIFY ELEMENTS
+
+      const heading = document.getElementById("main-heading");
+      heading.textContent = "NEW HEADING";
+
+      heading.innerHTML = "<span style='color: red'>styled</span>heading";
+
+      heading.style.color ="blue";
+      heading.style.fontSizw = "24px";
+      heading.style.textAlign = "center";
     </script>
   </body>
 </html>
